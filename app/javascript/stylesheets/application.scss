@@ -1,0 +1,15 @@
+@import "materialize-css/dist/css/materialize";
+
+.custom-size {
+  min-height: 15em;
+  padding: 5px;
+  border: 1px solid #bdbdbd;
+}
+
+.custom-size:target {
+  border: 1px solid teal;
+}
+
+.new-post-submit {
+  margin-left: 10px;
+}
